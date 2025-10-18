@@ -27,7 +27,17 @@
       "Bash(unzip -t MenuTemp-v1.0.zip)",
       "Bash(pip3 list)",
       "Bash(git init)",
-      "Bash(git add -A)"
+      "Bash(git add -A)",
+      "Bash(git commit -m \"Initial release of MenuTemp v1.0.0\n\n🌡️ MenuTemp - Mac Temperature Monitor\n\nA cute, lightweight menu bar temperature monitor for macOS that displays \nreal-time CPU temperature with beautiful color-coded indicators.\n\nFeatures:\n- Real-time CPU temperature monitoring\n- Temperature unit toggle (°F ↔ °C) with persistent preference\n- Color-coded display (blue/yellow/orange/red)\n- Cute thermometer icon in Details dialog\n- Auto-updates every 30 seconds\n- Menu bar only (no Dock icon)\n- Keyboard shortcuts (⌘D, ⌘U, ⌘Q)\n- Smart fallback to CPU power display\n\n🤖 Generated with Claude Code\n\nCo-Authored-By: Claude <noreply@anthropic.com>\")",
+      "Bash(gh --version)",
+      "Bash(gh repo create menutemp --public --description \"🌡️ A cute, lightweight menu bar temperature monitor for macOS with color-coded indicators\" --source=. --remote=origin)",
+      "Bash(git branch -M main)",
+      "Bash(git push -u origin main)",
+      "Bash(gh release create v1.0.0 MenuTemp-v1.0.zip --title \"MenuTemp v1.0.0 - Initial Release 🌡️\" --notes \"# MenuTemp v1.0.0 - Initial Release 🌡️\n\nA cute, lightweight menu bar temperature monitor for macOS.\n\n## What''s New\n✨ First public release of MenuTemp!\n\n- Real-time CPU temperature monitoring\n- Toggle between Fahrenheit and Celsius\n- Color-coded temperature display (blue/yellow/orange/red)\n- Cute thermometer icon in Details dialog\n- Lightweight and native macOS design\n- Auto-updates every 30 seconds\n- Menu bar only (no Dock icon)\n\n## Installation\n1. Download \\`MenuTemp-v1.0.zip\\` below\n2. Unzip and drag MenuTemp.app to Applications\n3. Open MenuTemp from Applications\n4. Enjoy! 🌡️\n\n## System Requirements\n- macOS 11.0 (Big Sur) or later\n- Apple Silicon (arm64)\n- Python 3.x (included with macOS)\n\n## Features\n- 🌡️ Real-time temperature monitoring\n- 🔄 Temperature unit toggle (°F ↔ °C)\n- 🎨 Color-coded indicators\n- ⌨️ Keyboard shortcuts (⌘D, ⌘U, ⌘Q)\n- 💾 Persistent preferences\n- ⚡ Smart fallback to CPU power\n\n## Download\nSee assets below ⬇️\n\nFull documentation: [README.md](https://github.com/danielalanbates/menutemp#readme)\n\n---\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\")",
+      "Bash(gh repo list danielalanbates)",
+      "Bash(gh repo delete danielalanbates/file-automation-suite --yes)",
+      "Bash(gh auth refresh -h github.com -s delete_repo)",
+      "Bash(git rm README_menu_temp_old.md README_menu_temp.md MenuTemp.spec menu_temp.py menu_temp.cpython-314.pyc test_power.swift COLOR_DEMO_README.txt FILE_STRUCTURE.txt FINAL_SUMMARY.txt)"
     ],
     "deny": [],
     "ask": []
