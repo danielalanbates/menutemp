@@ -1,0 +1,35 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3:*)",
+      "Bash(pip3 show:*)",
+      "Bash(pip3 install:*)",
+      "Bash(pyinstaller:*)",
+      "Read(//Users/daniel/Library/LaunchAgents/**)",
+      "Bash(launchctl unload:*)",
+      "Bash(launchctl load:*)",
+      "Bash(open:*)",
+      "Bash(kill:*)",
+      "Bash(./MenuTemp --help)",
+      "Bash(echo \"Exit code: $?\")",
+      "Bash(pkill -f \"MenuTemp\")",
+      "Bash(cp MenuTemp MenuTemp.app/Contents/MacOS/)",
+      "Bash(cp get_temp.py get_temp_advanced.py MenuTemp.app/Contents/Resources/)",
+      "Bash(swiftc menu_temp.swift -o MenuTemp)",
+      "Bash(chmod +x package.sh)",
+      "Bash(./package.sh)",
+      "Bash(zipinfo -1 MenuTemp-v1.0.zip)",
+      "Bash(ditto -c -k --keepParent MenuTemp.app MenuTemp-v1.0.zip)",
+      "Bash(chmod +x demo_temps.py)",
+      "Bash(chmod +x color_preview.sh)",
+      "Bash(./color_preview.sh)",
+      "Bash(defaults read com.menutemp.app)",
+      "Bash(unzip -t MenuTemp-v1.0.zip)",
+      "Bash(pip3 list)",
+      "Bash(git init)",
+      "Bash(git add -A)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

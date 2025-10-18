@@ -1,0 +1,63 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.aclimport
+
+# Build artifacts
+build/
+dist/
+*.pyc
+__pycache__/
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Swift build artifacts
+*.swiftmodule
+*.swiftdoc
+DerivedData/
+.build/
+
+# Compiled executables (keep MenuTemp in app bundle only)
+/MenuTemp
+/menu_temp_app
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Distribution
+*.dmg
+*.zip
+*.tar.gz
+
+# Keep the app bundle
+!MenuTemp.app/

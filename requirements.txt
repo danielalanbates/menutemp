@@ -1,0 +1,6 @@
+# MenuTemp Dependencies
+# For development and icon creation only
+# The app bundle includes all necessary files
+
+rumps>=0.4.0
+Pillow>=10.0.0
